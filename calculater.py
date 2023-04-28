@@ -3,6 +3,9 @@ from math import sqrt
 root = Tk()
 root.title("calX")
 
+#Creating the icon
+root.iconbitmap(r"C:\Users\A\Downloads\calculator_android_system_blue_smartphone_icon_252259.ico")
+
 e= Entry(root, width=50, borderwidth=10, fg="white", bg="Black")
 e.grid(row=0, column=0,columnspan=10,padx=10,pady=10)
 
